@@ -1,8 +1,8 @@
 class Target {
   width = 10;
   height = 10;
-  x = 0;
-  y = 0;
+  x = 10;
+  y = 10;
   id = "target";
   background = "#FF79C6";
 

@@ -64,6 +64,6 @@ window	dom.js	/^  window = ({ width, height, background, id }) => {$/;"	M	class:
 window	index.html	/^    <div id="window">$/;"	I
 window	window.js	/^  window = {};$/;"	M	class:Swindow
 x	snake.js	/^  x = 0;$/;"	M	class:Snake
-x	target.js	/^  x = 0;$/;"	M	class:Target
+x	target.js	/^  x = 10;$/;"	M	class:Target
 y	snake.js	/^  y = 0;$/;"	M	class:Snake
-y	target.js	/^  y = 0;$/;"	M	class:Target
+y	target.js	/^  y = 10;$/;"	M	class:Target
