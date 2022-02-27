@@ -29,6 +29,7 @@ class Dom {
     doc.style.height = `${height}px`;
     doc.style.top = `${Math.abs(y)}px`;
     doc.style.left = `${Math.abs(x)}px`;
+    doc.style.borderRadius = `50%`;
     doc.style.overflow = `hidden`;
 
     return doc;
