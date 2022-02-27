@@ -16,8 +16,11 @@ class Target {
 
     if (this.x % 10 > 0 && this.x > 10)
       this.x = Math.floor((this.x /= 10)) * 10;
+    else this.x = 10;
+
     if (this.y % 10 > 0 && this.y > 10)
       this.y = Math.floor((this.y /= 10)) * 10;
+    else this.y = 10;
 
     this.dom = dom.target({
       height: this.height,
