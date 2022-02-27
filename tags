@@ -18,24 +18,28 @@ addListeners	window.js	/^  addListeners = (moveRight, moveUp, moveLeft, moveDown
 background	snake.js	/^  background = "#8BE9FD";$/;"	M	class:Snake
 background	target.js	/^  background = "#FF79C6";$/;"	M	class:Target
 background	window.js	/^  background = "#282A36";$/;"	M	class:Swindow
+constructor	snake.js	/^  constructor() {$/;"	m	class:Snake
 direction	snake.js	/^  direction = "right";$/;"	M	class:Snake
 doc	dom.js	/^    const doc = document.getElementById(id);$/;"	C	class:Dom
 doc	window.js	/^    const doc = dom.window({$/;"	C	class:Swindow
 dom	snake.js	/^    const dom = new Dom();$/;"	C	class:Snake
 dom	target.js	/^    const dom = new Dom();$/;"	C	class:Target
+dom	target.js	/^  dom = {};$/;"	M	class:Target
 dom	window.js	/^    const dom = new Dom();$/;"	C	class:Swindow
 draw	snake.js	/^  draw = () => {$/;"	M	class:Snake
 draw	start.js	/^  draw = () => {$/;"	M	class:Start
 draw	target.js	/^  draw = () => {$/;"	M	class:Target
 draw	window.js	/^  draw = () => {$/;"	M	class:Swindow
-grow	snake.js	/^  grow() {}$/;"	m	class:Snake
+eatFood	snake.js	/^  eatFood() {$/;"	m	class:Snake
+getKey	snake.js	/^  getKey = () => {$/;"	M	class:Snake
+grow	snake.js	/^  grow() {$/;"	m	class:Snake
 height	snake.js	/^  height = 10;$/;"	M	class:Snake
 height	target.js	/^  height = 10;$/;"	M	class:Target
 height	window.js	/^  height = 300;$/;"	M	class:Swindow
-hitTarget	snake.js	/^  hitTarget() {}$/;"	m	class:Snake
 id	snake.js	/^  id = "snake";$/;"	M	class:Snake
 id	target.js	/^  id = "target";$/;"	M	class:Target
 id	window.js	/^  id = "window";$/;"	M	class:Swindow
+intersect	snake.js	/^  intersect = false;$/;"	M	class:Snake
 length	snake.js	/^  length = 1;$/;"	M	class:Snake
 moveDown	snake.js	/^  moveDown = () => {$/;"	M	class:Snake
 moveLeft	snake.js	/^  moveLeft = () => {$/;"	M	class:Snake
@@ -46,11 +50,12 @@ padY	snake.js	/^    let padY = (10 + this.y) % 300;$/;"	v	class:Snake
 snake	README.md	/^# snake$/;"	c
 snake	dom.js	/^  snake = ({ x, y, width, height, id, background }) => {$/;"	M	class:Dom
 snake	index.html	/^      <div id="snake"><\/div>$/;"	I
+snake	snake.js	/^  snake = null;$/;"	M	class:Snake
 snake	start.js	/^    const snake = new Snake();$/;"	C	class:Start
 start	start.js	/^const start = new Start();$/;"	C
 target	dom.js	/^  target = ({ x, y, width, height, id, background }) => {$/;"	M	class:Dom
 target	index.html	/^      <div id="target"><\/div>$/;"	I
-target	start.js	/^    const target = new Target();$/;"	C	class:Start
+target	snake.js	/^  target = null;$/;"	M	class:Snake
 width	snake.js	/^  width = 10;$/;"	M	class:Snake
 width	target.js	/^  width = 10;$/;"	M	class:Target
 width	window.js	/^  width = 300;$/;"	M	class:Swindow
@@ -59,6 +64,6 @@ window	dom.js	/^  window = ({ width, height, background, id }) => {$/;"	M	class:
 window	index.html	/^    <div id="window">$/;"	I
 window	window.js	/^  window = {};$/;"	M	class:Swindow
 x	snake.js	/^  x = 0;$/;"	M	class:Snake
-x	target.js	/^  x = Math.random() * 280;$/;"	M	class:Target
+x	target.js	/^  x = 0;$/;"	M	class:Target
 y	snake.js	/^  y = 0;$/;"	M	class:Snake
-y	target.js	/^  y = Math.random() * 280;$/;"	M	class:Target
+y	target.js	/^  y = 0;$/;"	M	class:Target
