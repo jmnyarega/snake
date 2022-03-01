@@ -1,11 +1,11 @@
 import { useState } from "react";
 
 const Game = ({ size }) => {
-  const [food, setFood] = useState([0, 0]);
+  const [food, setFood] = useState([4, 4]);
   const [snake, setSnake] = useState([
-    [1, 2],
-    [1, 3],
-    [1, 4],
+    [0, 0],
+    [0, 1],
+    [0, 2],
   ]);
   const [status, setStatus] = useState(0);
   const [direction, setDirection] = useState("right");
