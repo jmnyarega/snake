@@ -1,2 +1,3 @@
-# snake
-An attempt to create a classic snake game
+### snake
+
+- An attempt to create a classic snake game
